@@ -27,7 +27,7 @@ jobs:
         run: mvn test
 
       - name: Run Static Code Analysis
-        run: mvn spotbug:check
+        run: mvn spotbugs:check
 
 
 
