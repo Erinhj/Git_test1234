@@ -19,7 +19,7 @@ jobs:
           java-version: 11
 
       - name: Build with Maven
-        run: mvn clen
+        run: mvn clean
 
       - name: Run tests
         run: mvn test
